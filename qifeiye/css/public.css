@@ -1,0 +1,77 @@
+/* 初始化css文件*/
+body,dl,dd,ul,ol,h1,h2,h3,h4,h5,h6,p,form,header,section,article,footer{
+    margin:0;
+}
+body,button,input,select,textarea{font:12px/1.5 tahoma,'\5FAE\8F6F\96C5\9ED1',sans-serif} /*sans-serif是手机默认字体*/
+h1,h2,h3,h4,h5,h6{font-size:100%}
+em,b{
+    font-style:normal
+}
+a{
+    text-decoration:none;
+    outline: none;
+    color: inherit;
+    cursor: pointer;
+}
+a:hover{
+    text-decoration:none;
+}
+img{
+    border:0;
+    vertical-align: middle;
+}
+button,input,select,textarea{
+    font-size:100%;
+    outline:none;
+    border: none;
+}
+table{border-collapse:collapse;border-spacing:0}
+td,th,ul,ol{
+    list-style-type: none;
+    padding:0
+}
+.iconfont{
+    color: inherit;
+}
+/************** float ***************/
+.fl-l{
+    float: left;
+}
+.fl-r{
+    float: right;
+}
+.clearfix:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.Middle{
+    text-align: center;
+}
+/*************** position ***************/
+.pos-r{
+    position: relative;
+}
+.pos-a{
+    position: absolute;
+}
+.pos-f{
+    position: fixed;
+}
+/************** iconfont ******************/
+@font-face {
+    font-family: 'iconfont';
+    src: url('../iconfont/iconfont.eot');
+    src: url('../iconfont/iconfont.eot?#iefix') format('embedded-opentype'),
+    url('../iconfont/iconfont.woff2') format('woff2'),
+    url('../iconfont/iconfont.woff') format('woff'),
+    url('../iconfont/iconfont.ttf') format('truetype'),
+    url('../iconfont/iconfont.svg#iconfont') format('svg');
+}
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
